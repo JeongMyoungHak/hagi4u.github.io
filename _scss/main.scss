@@ -1,0 +1,15 @@
+$design-width: 1280px;
+$root-em: 24px;
+
+@import '../MUI/scss/base/reset';
+@import '../MUI/scss/base/mixins';
+@import '../MUI/scss/base/extends';
+
+@import '../MUI/scss/layout/common';
+
+@import 'base/reset';
+@import 'base/variables';
+
+@import 'layout/common';
+@import 'layout/header';
+@import 'layout/nav';
