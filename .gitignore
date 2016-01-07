@@ -1,4 +1,9 @@
-_site
-.sass-cache
-.jekyll-metadata
+_site/
+build/
 node_modules/
+MUI/
+.sass-cache/
+.DS_Store
+.ruby-version
+.jekyll-metadata
+
