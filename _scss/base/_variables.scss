@@ -1,1 +1,13 @@
-$layout-width:1024px;
+// -------------------------
+// Layout variables
+// ------------------------- 
+$layout-width:890px;
+$layout-inner-padding: 45px;
+
+// -------------------------
+// Color variables
+// ------------------------- 
+$color-anchor:#2890b9;
+$color-heading:#555;
+$color-grey: #828282;
+$color-grey-light: lighten($color-grey, 40%);

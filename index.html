@@ -1,18 +1,18 @@
 ---
 layout: default
 ---
-<div class="home">
-  <h2>This is Home!</h2>
-  <!--h2 class="page-heading">Posts</h2>
-  <ul class="post-list">
+<div class="home archive inner">
+  <ul class="archive-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    <li class="archive-item">
+      <h2 class="archive-heading">
+        <a class="archive-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="archive-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </h2>
+      <p class="archive-content">{{ post.content | strip_html | truncatewords:65}}</p>
+      <a href="{{ post.url }}" class="archive-read-more">
+        &gt; 더 보기</a>
+    </li>
     {% endfor %}
   </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p-->
 </div>

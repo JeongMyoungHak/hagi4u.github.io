@@ -1,18 +1,23 @@
-body{
-	margin:0;
-	padding:0;
-
-	color:#555;
-	background-color:#f8f8f8;
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: white;
+  font-family: 'Spoqa Han Sans', 'Nanum Gothic', 'Malgun Gothic', Arial, 'Sans-serif';
+  line-height: 120%;
 }
 
-.inner{
-	position:relative;
-	width:100%;
-	max-width:$layout-width;
+.inner {
+  position: relative;
+  width: 100%;
+  max-width: $layout-width;
+  margin-left: auto;
+  margin-right: auto;
+  @extend %clearfix;
 
-	margin-left:auto;
-	margin-right:auto;
-
-	@extend %clearfix;
+  .l-section & {
+    padding-left: rem($layout-inner-padding);
+    padding-right: rem($layout-inner-padding);
+  }
+  
 }

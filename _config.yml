@@ -8,7 +8,7 @@
 # Site settings
 title: Jeong MyoungHak
 email: hagi4u@gmail.com
-description: > # Copyright (c) Jeong MyoungHak.
+description: Copyright (c) Jeong MyoungHak.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hagi4u.github.io" # the base hostname & protocol for your site
 twitter_username: hagi4u

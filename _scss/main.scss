@@ -13,3 +13,11 @@ $root-em: 24px;
 @import 'layout/common';
 @import 'layout/header';
 @import 'layout/nav';
+@import 'layout/section';
+@import 'layout/footer';
+
+@import 'modules/archive';
+@import 'modules/post';
+@import 'modules/copyright';
+
+@import 'vendor/syntax-highlighting';

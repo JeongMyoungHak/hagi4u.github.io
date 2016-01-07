@@ -1,0 +1,69 @@
+---
+layout: post
+title:  "DTD (Document Type Definition)"
+date:   2016-01-05 09:57:33 +0900
+categories: html study
+---
+##DTD가 무엇인가?
+HTML, XHTML은 문서형 정의를 통해 마크업 문서의 요소와 속성을 처리하고, 유효성 검사에 사용이 됩니다.
+보통은 Doctype 선언 시 Type 별 Attritube, URI 가 존재하는데, HTML5에서는 존재하지 않고, ``` <!DOCTYPE html> ``` 으로 사용됩니다.
+
+웹 브라우저는 DTD를 기준으로 마크업 문서의 요소와 속성을 처리하며 이를 표시하지 않을 시 비표준모드(Quirks Mode)로 실행하여 웹 표준 보다는 웹 브라우저 내 엔진으로 렌더링 함으로 모든 브라우저가 설계된 웹 페이지를 의도한 대로 표시할 수 없게 됩니다. 따라서 DTD는 꼭 선언 해 주는 것이 좋습니다. 
+
+###버전 별 DTD
+
+####HTML5
+
+```
+<!DOCTYPE html>
+```
+
+####HTML 4.0.1 Strict
+
+> Traditional DTD에서 deprecated된 요소와 <frameset> 관련 요소 및 속성을 제외한 가장 엄격한 DTD입니다.
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+```
+
+####The HTML 4.01 Transitional
+> Strict DTD에서 deprecated 요소와 속성을 포함합니다. 권장되지 않는 요소나 속성을 문서에 포함할 필요가 있을 때, 하위 호환성을 위해 이 선언문을 사용하면 됩니다. Frameset관련 요소는 포함되지 않습니다.
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+```
+
+####The HTML 4.01 Frameset DTD
+> Traditionl DTD에 frameset을 포함합니다. Frameset을 적용한 문서에서는 이 선언문을 사용해야 합니다. 가장 느슨한 문서 형식입니다.
+
+```
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+```
+
+####XHTML 1.1
+> XHTML 1.1에서는 하나의 DTD만 정의할 수 있습니다. 이것은 기존의 XHTML 1.0 Strict DTD를 기본으로 합니다.
+
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+```
+
+####XHTML 1.0
+> XHTML 1.0에서는 HTML 4.01의 DTD와 유사하게 3가지 DTD 중 하나를 사용할 수 있습니다.
+
+#####XHTML 1.0 Strict
+
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+```
+
+#####XHTML 1.0 Transitional
+
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+```
+
+#####XHTML 1.0 Frameset
+
+```
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+```

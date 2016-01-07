@@ -6,17 +6,20 @@
 	width:100%;
 	height:65px;
 
+	line-height:65px;
+	vertical-align:middle;
+
 	border-bottom:1px solid #e0e0e0;
 
 	@extend %clearfix;
 
 	.bi{
 		float:left;
-		font-size: rem(24px);
+		font-size: rem(17px);
 	}
 
 	.inner{
-		padding-left:rem(22px);
-		padding-right:rem(22px);
+	//	padding-left:rem(22px);
+	//	padding-right:rem(22px);
 	}
 }
