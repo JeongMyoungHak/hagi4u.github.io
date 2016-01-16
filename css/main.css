@@ -287,6 +287,11 @@ h6 {
 img {
   max-width: 100%; }
 
+.l-title {
+  margin-bottom: 2.08333rem;
+  font-size: 1.66667rem;
+  text-align: center; }
+
 body {
   margin: 0;
   padding: 0;
@@ -302,6 +307,8 @@ body {
   margin-left: auto;
   margin-right: auto; }
   .l-section .inner {
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
     padding-left: 1.875rem;
     padding-right: 1.875rem; }
 
@@ -338,46 +345,47 @@ body {
   padding-top: 2.08333rem;
   padding-bottom: 2.08333rem; }
 
-.archive {
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem; }
-  .archive-item {
-    position: relative;
-    margin-top: 5rem; }
-    .archive-item:after {
-      content: '';
-      display: block;
-      position: absolute;
-      bottom: -40px;
-      left: 50%;
-      width: 11.25rem;
-      height: 1px;
-      margin-left: -5.625rem;
-      background-color: #c0c0c0; }
-    .archive-item:first-child {
-      margin-top: 0; }
-  .archive-heading {
-    position: relative;
-    font-size: 1.08333rem;
-    color: #555; }
-  .archive-meta, .post-meta {
+.archive-item {
+  position: relative;
+  margin-top: 5rem; }
+  .archive-item:after {
+    content: '';
+    display: block;
     position: absolute;
-    top: 50%;
-    right: 0;
-    font-size: 0.5rem;
-    font-weight: 200;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
-  .archive-content {
-    margin: .9rem auto .4rem;
-    font-size: 0.66667rem;
-    font-weight: 200;
-    line-height: 160%; }
-  .archive-read-more {
-    font-size: 0.54167rem;
-    font-weight: 400;
-    color: #2890b9; }
+    bottom: -40px;
+    left: 50%;
+    width: 11.25rem;
+    height: 1px;
+    margin-left: -5.625rem;
+    background-color: #c0c0c0; }
+  .archive-item:first-child {
+    margin-top: 0; }
+
+.archive-heading {
+  position: relative;
+  font-size: 1.08333rem;
+  color: #555; }
+
+.archive-meta, .post-meta {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 0.5rem;
+  font-weight: 200;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+
+.archive-content {
+  margin: .9rem auto .4rem;
+  font-size: 0.66667rem;
+  font-weight: 200;
+  line-height: 160%; }
+
+.archive-read-more {
+  font-size: 0.54167rem;
+  font-weight: 400;
+  color: #2890b9; }
 
 .post {
   padding-top: 1.875rem;

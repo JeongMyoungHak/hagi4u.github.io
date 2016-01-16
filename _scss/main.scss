@@ -10,6 +10,8 @@ $root-em: 24px;
 @import 'base/reset';
 @import 'base/variables';
 
+@import 'components/typography';
+
 @import 'layout/common';
 @import 'layout/header';
 @import 'layout/nav';

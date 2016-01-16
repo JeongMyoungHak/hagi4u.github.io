@@ -16,6 +16,10 @@ body {
   @extend %clearfix;
 
   .l-section & {
+
+    padding-top:rem($layout-inner-padding);
+    padding-bottom:rem($layout-inner-padding);
+  
     padding-left: rem($layout-inner-padding);
     padding-right: rem($layout-inner-padding);
   }

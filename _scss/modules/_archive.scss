@@ -1,6 +1,4 @@
 .archive{
-	padding-top:rem($layout-inner-padding);
-	padding-bottom:rem($layout-inner-padding);
 	&-list{
 		@extend %list-style-none;
 
