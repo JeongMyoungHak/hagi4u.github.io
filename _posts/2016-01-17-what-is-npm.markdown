@@ -13,13 +13,21 @@ NPM (Node Peopleckage Manager)은 프로젝트에 대한 설정을 package.json 
 ```
 {
   "name": "gulp-reactjs",
+  
   "version": "0.0.1",
+  
   "description": "ReactJS Project",
+  
   "main": "index.js",
+  
   "scripts": {
+  
     "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
+  
   "author": "Jeong MyoungHak",
+  
   "license": "MIT"
 }
 ```
