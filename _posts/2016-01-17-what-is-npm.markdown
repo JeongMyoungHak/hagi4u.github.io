@@ -10,7 +10,7 @@ categories: study npm package.json
 NPM (Node Peopleckage Manager)은 프로젝트에 대한 설정을 package.json 이라는 파일에 의존하고 있고, 프로젝트에 대한 관리가 가능합니다.
 
 ### package.json 예시
-```
+```json
 {
   "name": "gulp-reactjs",
   "version": "0.0.1",
