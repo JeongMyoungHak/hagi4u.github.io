@@ -4,6 +4,7 @@ title:  "NPM 으로 package.json 생성하기"
 date:   2016-01-17 01:16:00 +0900
 categories: study npm package.json
 ---
+(수정예정)
 ## package.json?
 프로젝트 소스가 모듈에 의존하고 있는경우, 각각의 버전에 따라 문제가 생길 수 있다. 때문에 버전과 관련한 의존성을 해결하기 위해 버전관리를 해 줄 필요가 있습니다.
 
