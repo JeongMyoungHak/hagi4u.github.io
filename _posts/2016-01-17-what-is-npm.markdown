@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "NPM 으로 package.json 생성하기"
-date:   2016-01-17 01:16:00 +0900
+title: NPM 으로 package.json 생성하기
+date: "2016-01-17 01:16:00 +0900"
 categories: study npm package.json
+published: true
 ---
+
+
 (수정예정)
 ## package.json?
 프로젝트 소스가 모듈에 의존하고 있는경우, 각각의 버전에 따라 문제가 생길 수 있다. 때문에 버전과 관련한 의존성을 해결하기 위해 버전관리를 해 줄 필요가 있습니다.
@@ -11,7 +14,7 @@ categories: study npm package.json
 NPM (Node Peopleckage Manager)은 프로젝트에 대한 설정을 package.json 이라는 파일에 의존하고 있고, 프로젝트에 대한 관리가 가능합니다.
 
 ### package.json 예시
-!["package.json 예시"](/_images/example-package-json.png)
+![example-package-json.png]({{site.baseurl}}/_posts/example-package-json.png)
 
 ### 어떻게 만들까요?
 손수 JSON파일을 생성해서 사용해도 되지만 저 형식을 만들기 위해서는 외워야 할게 많으니, `npm`명령어를 기준으로 만드는 방법을 알아 보도록 합니다.
