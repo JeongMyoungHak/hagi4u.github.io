@@ -11,23 +11,7 @@ categories: study npm package.json
 NPM (Node Peopleckage Manager)은 프로젝트에 대한 설정을 package.json 이라는 파일에 의존하고 있고, 프로젝트에 대한 관리가 가능합니다.
 
 ### package.json 예시
-<<<<<<< HEAD
 !["package.json 예시"](/_images/example-package-json.png)
-=======
-```json
-{
-  "name": "gulp-reactjs",
-  "version": "0.0.1",
-  "description": "ReactJS Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Jeong MyoungHak",
-  "license": "MIT"
-}
-```
->>>>>>> 24986162b07d4d23f8813f851ebf0fff8f60bdfd
 
 ### 어떻게 만들까요?
 손수 JSON파일을 생성해서 사용해도 되지만 저 형식을 만들기 위해서는 외워야 할게 많으니, `npm`명령어를 기준으로 만드는 방법을 알아 보도록 합니다.
