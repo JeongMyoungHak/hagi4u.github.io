@@ -15,4 +15,4 @@ twitter_username: hagi4u
 github_username:  hagi4u
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
