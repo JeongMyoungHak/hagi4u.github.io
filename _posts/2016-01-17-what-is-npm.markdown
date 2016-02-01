@@ -14,14 +14,14 @@ published: true
 NPM (Node Peopleckage Manager)은 프로젝트에 대한 설정을 package.json 이라는 파일에 의존하고 있고, 프로젝트에 대한 관리가 가능합니다.
 
 ### package.json 예시
-![example-package-json.png]({{site.baseurl}}/_posts/example-package-json.png)
+![example-package-json.png]({{site.baseurl}}/assets/example-package-json.png)
 
 ### 어떻게 만들까요?
 손수 JSON파일을 생성해서 사용해도 되지만 저 형식을 만들기 위해서는 외워야 할게 많으니, `npm`명령어를 기준으로 만드는 방법을 알아 보도록 합니다.
 
 ```npm init``` 명령을 입력하면 아래 이미지와 같은 대화형 프롬프트를 통해 필요에 부분을 입력하게 되면, 해당 내용이 모두 package.json 파일에 저장됩니다.
 
-!["npm init"](/_images/example-npm-init.png)
+!["npm init"](/assets/example-npm-init.png)
 
 위 내용에서는 단순히 프로젝트 정보에 대한 내용만 나오지만, npm을 통한 install 명령 수행 시에는 해당 패키지가 dependencies 영역에 추가됩니다.
 
