@@ -397,7 +397,7 @@ body {
   font-size: 1.08333rem;
   color: #555; }
 
-.archive-meta, .post-meta {
+.archive-meta {
   position: absolute;
   top: 50%;
   right: 0;
@@ -438,9 +438,26 @@ body {
  */
 .post-header {
   position: relative;
+  padding-bottom: 0.58333rem;
   margin-left: -0.58333rem;
   margin-right: -0.58333rem;
-  margin-bottom: 1.25rem; }
+  margin-bottom: 1.25rem;
+  text-align: center; }
+  .post-header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 120px;
+    height: 1px;
+    margin-left: -60px;
+    background-color: #e0e0e0; }
+
+.post-meta {
+  margin-top: 0.33333rem;
+  font-size: 0.58333rem;
+  color: #828282; }
 
 .post-title {
   font-size: 1.33333rem;
