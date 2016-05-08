@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자주 사용되는 CSS3 Animation 속성"
-date: "2016-01-17 01:16:00 +0900"
+date: "2016-04-25 22:19:00 +0900"
 categories: study css3 TIL animation
 published: true
 ---
