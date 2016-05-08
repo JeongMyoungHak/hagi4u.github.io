@@ -1,23 +1,19 @@
-.nav{
-	position:relative;
-
-	&-gnb{
-		float:right;
-
-		.nav{
-			&-anchor{
-				display:inline-block;
-				margin-left:14px;
-
-				font-size:rem(15px);
-
-				&:first-child{
-					margin-left:0;
-				}
-				&[href="/archive/"]{
-					display:none;
-				}
-			}
-		}
-	}
+.nav {
+  position: relative;
+  &-gnb {
+    float: right;
+    .nav {
+      &-anchor {
+        display: inline-block;
+        margin-left: 14px;
+        font-size: rem(15px);
+        &:first-child {
+          margin-left: 0;
+        }
+        &[href="/archive/"] {
+          display: none;
+        }
+      }
+    }
+  }
 }

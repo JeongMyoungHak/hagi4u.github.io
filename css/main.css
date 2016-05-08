@@ -54,6 +54,7 @@ template {
   display: none; }
 
 a {
+  color: inherit;
   background-color: transparent;
   text-decoration: none; }
 
@@ -102,7 +103,7 @@ svg:not(:root) {
   overflow: hidden; }
 
 figure {
-  margin: 1em 40px; }
+  margin: 0; }
 
 hr {
   -webkit-box-sizing: content-box;
@@ -210,9 +211,23 @@ td,
 th {
   padding: 0; }
 
+img {
+  max-width: 100%;
+  line-height: 1;
+  vertical-align: top; }
+
 fieldset img,
 label img {
   width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
 
 .inner, .main-header {
   *zoom: 1; }
@@ -236,16 +251,22 @@ html {
       font-size: 23px; } }
   @media (max-width: 639px) {
     html {
+      font-size: 11px; } }
+  @media (max-width: 600px) {
+    html {
       font-size: 9px; } }
   @media (max-width: 480px) {
     html {
-      font-size: 7.7625px; } }
+      font-size: 7px; } }
   @media (max-width: 414px) {
     html {
-      font-size: 7.7625px; } }
+      font-size: 7px; } }
   @media (max-width: 400px) {
     html {
-      font-size: 6.75px; } }
+      font-size: 6px; } }
+  @media (max-width: 360px) {
+    html {
+      font-size: 6px; } }
   @media (max-width: 320px) {
     html {
       font-size: 6px; } }
@@ -255,8 +276,7 @@ html {
   width: 100%;
   margin: 0 auto; }
   #viewport .inner {
-    position: relative;
-    width: 100%; }
+    position: relative; }
 
 .cfx {
   zoom: 1; }
@@ -287,11 +307,6 @@ h6 {
 img {
   max-width: 100%; }
 
-.l-title {
-  margin-bottom: 2.08333rem;
-  font-size: 1.66667rem;
-  text-align: center; }
-
 body {
   margin: 0;
   padding: 0;
@@ -316,10 +331,18 @@ body {
   position: relative; }
 
 .main-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
   width: 100%;
   height: 65px;
   line-height: 65px;
   vertical-align: middle;
+  background-color: white;
+  /** Less than IE8 Polyfill */
+  background-color: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid #e0e0e0; }
   .main-header .bi {
     float: left;
@@ -338,12 +361,20 @@ body {
       .nav-gnb .nav-anchor[href="/archive/"] {
         display: none; }
 
+.l-section {
+  padding-top: 65px; }
+
 .footer {
   position: relative; }
 
 .main-footer {
   padding-top: 2.08333rem;
   padding-bottom: 2.08333rem; }
+
+.archive-title {
+  margin-bottom: 2.08333rem;
+  font-size: 1.66667rem;
+  text-align: center; }
 
 .archive-item {
   position: relative;
